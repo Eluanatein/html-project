@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> LOGIN</title>
+        <link rel="stylesheet" type="text/css" href="new.css">
+    </head>
+    </head>
+    <body >
+        <div class="main1">
+            <ul id="d">
+                <li><a  href="HOME.html">HOME</a></li>
+                <li><a href="ABOUT.html">ABOUT</a></li>
+                <li><a href="CONTACT.html">CONTACT</a></li>
+                <li><a class="active" href="SIGNUP.html">LOGIN/SIGNUP</a></li>
+              </ul> 
+            <div class="middle"> 
+                <form class="form">
+                    <h3>SIGNUP</h><br>
+                    <label for="firstname">FIRSTNAME</label>
+                    <br>
+                    <input id ="firstname" type="text" name="fname">
+                    <br>
+                    <label for="lastname">LASTNAME</label>
+                    <br>
+                    <input id ="lastname" type="text" name="lname">
+                    <br>
+                    <label> password</label>
+                    <br>
+                    <input id="password" type="password" name="p1"/>
+                    <br>
+                    <label> confirm password</label>
+                    <br>
+                    <input id="cpassword" type="password" name="p2"/>
+                    <input type="checkbox" onclick="toggle()" id="pass" value=""
+                    <br>
+                    <input class="submit" type="button" value="submit" onclick="display()">
+                    <BR>
+                        <P>ALREADY HAVE AN ACCOUNT THEN</P><a  href="LOGIN.html">LOGIN</a></P>
+                 </form>
+            </div>
+        </div>
+            <script>
+             function display(){
+                var a=document.getElementById("firstname").value;
+                var a=document.getElementById("lastname").value;
+            }
+        alert("lello"+a+""+b)
+         </script>
+    </body>
+</html>
